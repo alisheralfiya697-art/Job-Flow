@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="jfGlow" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="52%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="jfBorder" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+  <!-- Solid Obsidian Black Background -->
+  <rect width="64" height="64" rx="16" fill="#090A10" />
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#090A10" stroke="url(#jfBorder)" stroke-width="2" />
+  <!-- Glowing Indigo/Violet/Cyan Trajectory Ribbon & Arrow -->
+  <path
+    d="M16 44C23 44 28 39 31 33C34 27 39 22 47 22"
+    stroke="url(#jfGlow)"
+    stroke-width="5.5"
+    stroke-linecap="round"
+  />
+  <path
+    d="M38 15L47 22L38 29"
+    stroke="url(#jfGlow)"
+    stroke-width="4.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="19" cy="22" r="4" fill="#8B5CF6" />
+  <circle cx="45" cy="42" r="4" fill="#06B6D4" />
+</svg>

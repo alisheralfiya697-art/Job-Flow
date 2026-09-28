@@ -1,0 +1,6 @@
+{
+  "name": "JobFlow — Intelligent Career & Application Workspace",
+  "description": "Track job applications, organize technical interviews, optimize ATS resumes, and visualize career pipeline analytics in one intelligent SaaS workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
